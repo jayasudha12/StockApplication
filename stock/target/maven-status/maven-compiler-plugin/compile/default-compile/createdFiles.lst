@@ -1,0 +1,15 @@
+com\example\stock\model\Budget.class
+com\example\stock\utils\ExpenseCategories.class
+com\example\stock\StockApplication.class
+com\example\stock\config\SecurityConfig.class
+com\example\stock\repository\AssetRepository.class
+com\example\stock\controller\AuthController.class
+com\example\stock\service\AuthService.class
+com\example\stock\repository\UserRepository.class
+com\example\stock\controller\AssetController.class
+com\example\stock\service\AssetService.class
+com\example\stock\controller\BudgetController.class
+com\example\stock\repository\BudgetRepository.class
+com\example\stock\service\BudgetService.class
+com\example\stock\model\Asset.class
+com\example\stock\model\User.class

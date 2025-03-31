@@ -1,0 +1,206 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: #ffffff; 
+  color: black; 
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1e40af; 
+  text-shadow: 2px 2px 10px rgba(30, 64, 175, 0.4); 
+}
+
+.about-description {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-top: 15px;
+  color: #4564c8; 
+}
+
+.about-section {
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+.about-subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e40af; 
+}
+
+.about-text {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #1e40af; 
+}
+
+.about-list {
+  font-size: 1.1rem;
+  list-style: none;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.about-list li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1e40af; 
+  display: flex;
+  align-items: center;
+}
+
+.about-list li::before {
+  content: "✅";
+  margin-right: 10px;
+}
+
+.about-image{
+  width: 25%;
+  height: 25%;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.header {
+  width: 97%;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  
+}
+
+.logo {
+  font-size: 29px;
+  font-weight: 700;
+  color: #1e40af; 
+  
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #1e40af; 
+  font-weight: 400;
+  font-size: 23px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  color: #3b82f6; 
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center;
+  text-align: left;
+  background-image: url('https://www.eightcap.com/labs/wp-content/uploads/sites/26/2021/04/EightcapLabs_blue_fundamentals_1320761489-1024x683.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white; 
+}
+
+
+.content {
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1e40af; 
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white; 
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #1e40af; 
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(30, 64, 175, 0.6); 
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.button:hover {
+  background-color: #3b82f6; 
+  transform: scale(1.05);
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+
+.button {
+  background-color: #1e40af; 
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(30, 64, 175, 0.6); 
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.button:hover {
+  background-color: #3b82f6; 
+  transform: scale(1.05);
+}
+
+.button svg {
+  margin-right: 10px; 
+}
+
+button svg {
+  font-size: 4rem;
+}
